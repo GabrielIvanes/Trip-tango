@@ -11,7 +11,7 @@ function NavLinks() {
 	return (
 		<div className='flex gap-10'>
 			{linksData.map((link) => (
-				<NavLink link={link} key={link.name} />
+				<NavLink link={link} key={link.name} isNavigation={true} />
 			))}
 		</div>
 	);
